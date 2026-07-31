@@ -7,3 +7,5 @@ All content is visible without JavaScript. JavaScript only enhances navigation a
 
 ## Deploy
 Preview locally by opening index.html. After approval, copy all files into the GitHub repository while preserving the hidden .git folder, then commit and push with GitHub Desktop.
+
+V10.2 redesigns the Solutions page with visual software demonstrations, operations dashboards, connected workflows, professional services journey, and responsive layouts.
