@@ -1,15 +1,5 @@
-# Marval Website V9.2 — Cache Fix Release
+# Marval Website V9.3 Stable
 
-This release fixes the live-site rendering problem caused by mixed stylesheet generations
-and stale browser/Cloudflare caching.
+This release restores the complete V9.1 stylesheet and only changes asset filenames to force a clean browser and Cloudflare refresh.
 
-Changes:
-- Removed the duplicate appended CSS shell.
-- Restored one consistent stylesheet for the complete site.
-- Renamed CSS and JavaScript assets to force a fresh browser download.
-- Added explicit version query strings to every HTML page.
-- Preserved the larger Marval logo.
-- Preserved the single Contact navigation item.
-
-Deploy the entire extracted folder to Cloudflare Pages in one deployment.
-Do not copy only index.html.
+Deploy the entire folder through the existing GitHub Desktop workflow.
