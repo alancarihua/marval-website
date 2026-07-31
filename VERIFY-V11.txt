@@ -1,0 +1,19 @@
+MARVAL WEBSITE V11 VERIFICATION
+
+1. Open index.html
+   Must show:
+   "Parking technology that keeps your operation moving."
+
+2. Open solutions.html
+   Must show the approved visual Solutions redesign.
+
+3. Open hardware.html
+   Must show the approved visual Hardware redesign.
+
+4. Open marvalgo.html
+   Must show:
+   "The faster way to pay for parking."
+   A phone mockup.
+   Scan → Review → Pay → Exit sections.
+
+marvalgo.html must NOT be a full-browser stretched payment form.

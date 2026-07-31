@@ -1,11 +1,20 @@
-# Marval Parking Solutions Website V10
+# Marval Parking Solutions Website V11
 
-Clean production build with one stylesheet and one JavaScript file.
+V11 is based on the verified V10.4 foundation.
 
-## Safety
-All content is visible without JavaScript. JavaScript only enhances navigation and animation.
+Approved pages preserved:
+- index.html — Company homepage
+- solutions.html — V10.2 visual Solutions page
+- hardware.html — V10.1 visual Hardware page
 
-## Deploy
-Preview locally by opening index.html. After approval, copy all files into the GitHub repository while preserving the hidden .git folder, then commit and push with GitHub Desktop.
+V11 improvement:
+- marvalgo.html is now a complete premium product page.
+- The old full-width ticket-payment demo was removed.
+- The payment experience now appears inside an animated phone mockup.
+- Added Scan → Review → Pay → Exit journey.
+- Added driver benefits, operator benefits, security, and product CTA sections.
+- Added desktop, tablet, mobile, and reduced-motion friendly layouts.
 
-V10.2 redesigns the Solutions page with visual software demonstrations, operations dashboards, connected workflows, professional services journey, and responsive layouts.
+Important:
+Preview index.html and marvalgo.html locally before deployment.
+Copy all files into the marval-website repository while preserving the hidden .git folder.

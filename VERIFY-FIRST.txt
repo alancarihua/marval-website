@@ -1,0 +1,10 @@
+INDEX.HTML VERIFICATION
+
+CORRECT FIRST SCREEN:
+Parking technology that keeps your operation moving.
+
+The following text is intentionally NOT present anywhere in index.html:
+- TICKET FOUND
+- Parking total
+- Pay securely
+- You're ready to exit
