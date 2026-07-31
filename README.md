@@ -1,17 +1,15 @@
-# Marval Parking Solutions Website V9 — Corrected Full Build
+# Marval Website V9.2 — Cache Fix Release
 
-This corrected package includes seven HTML pages, shared styling, JavaScript, and original Marval image assets.
+This release fixes the live-site rendering problem caused by mixed stylesheet generations
+and stale browser/Cloudflare caching.
 
-Corrections in this release:
-- Restored the original Marval emblem in every header and footer.
-- Completed and styled the Contact page.
-- Unified navigation, forms, footer, and responsive behavior across all pages.
-- Retained the approved exclusions: no Marval Gateway, no LPR cameras, no system upgrades, and no Request a Demo CTA.
+Changes:
+- Removed the duplicate appended CSS shell.
+- Restored one consistent stylesheet for the complete site.
+- Renamed CSS and JavaScript assets to force a fresh browser download.
+- Added explicit version query strings to every HTML page.
+- Preserved the larger Marval logo.
+- Preserved the single Contact navigation item.
 
-Open `index.html` locally to preview. Upload all files together with `index.html` at the Cloudflare Pages root.
-
-
-## V9.1 refinement
-- Removed the duplicate Contact Us button from every page header.
-- Kept the single Contact navigation link.
-- Enlarged and rebalanced the Marval emblem in desktop and mobile headers.
+Deploy the entire extracted folder to Cloudflare Pages in one deployment.
+Do not copy only index.html.
