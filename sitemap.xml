@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://marvalparkingsolutions.com/</loc></url>
-<url><loc>https://marvalparkingsolutions.com/marvalgo.html</loc></url>
-<url><loc>https://marvalparkingsolutions.com/parkops.html</loc></url>
-<url><loc>https://marvalparkingsolutions.com/solutions.html</loc></url>
-<url><loc>https://marvalparkingsolutions.com/company.html</loc></url>
-<url><loc>https://marvalparkingsolutions.com/contact.html</loc></url>
+  <url><loc>https://marvalparkingsolutions.com/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://marvalparkingsolutions.com/solutions.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marvalparkingsolutions.com/hardware.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marvalparkingsolutions.com/marvalgo.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marvalparkingsolutions.com/parkops.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marvalparkingsolutions.com/company.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://marvalparkingsolutions.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

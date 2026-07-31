@@ -1,20 +1,17 @@
-<<<<<<< HEAD
-# Marval Website V9.4 — Reliable Display Fix
+# Marval Parking Solutions Website V9 — Corrected Full Build
 
-This build fixes the blank-page problem.
+This corrected package includes seven HTML pages, shared styling, JavaScript, and original Marval image assets.
 
-Important changes:
-- Website content is visible by default, even if JavaScript is blocked or delayed.
-- Scroll animations activate only after JavaScript loads successfully.
-- Added a safety fallback that reveals all content after page load.
-- Fixed navigation JavaScript selectors to match the actual header markup.
-- Renamed CSS and JavaScript assets again to avoid stale browser or Cloudflare files.
+Corrections in this release:
+- Restored the original Marval emblem in every header and footer.
+- Completed and styled the Contact page.
+- Unified navigation, forms, footer, and responsive behavior across all pages.
+- Retained the approved exclusions: no Marval Gateway, no LPR cameras, no system upgrades, and no Request a Demo CTA.
 
-Deploy every file in this folder together through GitHub Desktop.
-=======
-# Marval Parking Solutions Website — V8 Redesign
+Open `index.html` locally to preview. Upload all files together with `index.html` at the Cloudflare Pages root.
 
-Company-first website redesign with software, hardware, and professional services; MarvalGo product introduction; improved mobile navigation and responsive layouts.
 
-Deploy the full contents of this folder to Cloudflare Pages. Do not upload only the HTML files.
->>>>>>> parent of f3bc91b (Marval Parking Solutions V9.1)
+## V9.1 refinement
+- Removed the duplicate Contact Us button from every page header.
+- Kept the single Contact navigation link.
+- Enlarged and rebalanced the Marval emblem in desktop and mobile headers.
