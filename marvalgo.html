@@ -15,13 +15,15 @@
   <a class="skip-link" href="#main">Skip to content</a>
 
   <header class="site-header">
-    <div class="container nav-wrap">
+    <div class="container nav">
       <a class="brand" href="index.html" aria-label="Marval Parking Solutions home">
-        <span class="brand-logo-tile"><img src="assets/marval-emblem.png" alt=""></span>
-        <span class="brand-copy"><strong>MARVAL</strong><small>PARKING SOLUTIONS</small></span>
+        <img src="assets/marval-emblem.png" alt="">
+        <span><b>MARVAL</b><small>PARKING SOLUTIONS</small></span>
       </a>
-      <button class="menu" type="button" aria-expanded="false" aria-label="Open menu">☰</button>
-      <nav aria-label="Primary navigation">
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" aria-label="Primary navigation">
         <a href="solutions.html">Solutions</a>
         <a href="hardware.html">Hardware</a>
         <a class="active" href="marvalgo.html">MarvalGo</a>
@@ -41,8 +43,8 @@
           <h1>The faster way to pay for parking.</h1>
           <p>No app download. No pay-station line. Drivers scan their ticket, pay securely from their phone, and receive a clear ready-to-exit confirmation.</p>
           <div class="mg-hero-actions">
-            <a class="button button-primary" href="#how-it-works">See How It Works</a>
-            <a class="button button-ghost" href="contact.html">Talk to Marval</a>
+            <a class="btn primary" href="#how-it-works">See How It Works</a>
+            <a class="btn secondary" href="contact.html">Talk to Marval</a>
           </div>
           <div class="mg-trust-row">
             <div><strong>No app</strong><span>Open instantly in a mobile browser</span></div>
@@ -188,7 +190,7 @@
     <section class="mg-cta">
       <div class="container mg-cta-inner">
         <div><span>MARVALGO</span><h2>Make parking payments easier to complete.</h2><p>Talk with Marval Parking Solutions about bringing a modern mobile payment experience to your operation.</p></div>
-        <a class="button button-light" href="contact.html">Start a Conversation <span>→</span></a>
+        <a class="btn light-btn" href="contact.html">Start a Conversation <span>→</span></a>
       </div>
     </section>
   </main>
@@ -197,8 +199,8 @@
     <div class="container footer-grid">
       <div class="footer-brand">
         <a class="brand" href="index.html">
-          <span class="brand-logo-tile"><img src="assets/marval-emblem.png" alt=""></span>
-          <span class="brand-copy"><strong>MARVAL</strong><small>PARKING SOLUTIONS</small></span>
+          <img src="assets/marval-emblem.png" alt="">
+          <span><b>MARVAL</b><small>PARKING SOLUTIONS</small></span>
         </a>
         <p>Parking software, hardware services, and professional support built from real operational experience.</p>
         <strong class="footer-tagline">Ready. Pay. Go.</strong>

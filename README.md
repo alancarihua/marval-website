@@ -1,20 +1,12 @@
-# Marval Parking Solutions Website V11
+# Marval Parking Solutions Website V11.1
 
-V11 is based on the verified V10.4 foundation.
+V11.1 fixes the MarvalGo header and navigation.
 
-Approved pages preserved:
-- index.html — Company homepage
-- solutions.html — V10.2 visual Solutions page
-- hardware.html — V10.1 visual Hardware page
+Changes:
+- MarvalGo now uses the exact same shared header markup as all other pages.
+- Desktop menu options display normally.
+- Mobile hamburger menu works through the existing app.js.
+- Logo, buttons, active navigation state, and footer match the rest of the site.
+- Approved Homepage, Solutions, Hardware, Company, Contact, and ParkOps pages remain unchanged.
 
-V11 improvement:
-- marvalgo.html is now a complete premium product page.
-- The old full-width ticket-payment demo was removed.
-- The payment experience now appears inside an animated phone mockup.
-- Added Scan → Review → Pay → Exit journey.
-- Added driver benefits, operator benefits, security, and product CTA sections.
-- Added desktop, tablet, mobile, and reduced-motion friendly layouts.
-
-Important:
-Preview index.html and marvalgo.html locally before deployment.
-Copy all files into the marval-website repository while preserving the hidden .git folder.
+Preview marvalgo.html before deployment.
