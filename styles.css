@@ -702,3 +702,25 @@
         gap: 15px;
     }
 }
+/* MARVAL SHOWCASE SVG ICONS */
+
+.marval-showcase-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marval-showcase-icon svg {
+    display: block;
+    width: 27px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #7bc4ff;
+}
+
+@media (max-width: 640px) {
+    .marval-showcase-icon svg {
+        width: 25px;
+        height: 25px;
+    }
+}
